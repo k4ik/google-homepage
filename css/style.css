@@ -39,9 +39,17 @@ body {
     fill: #fff;
 }
 
+.cabecalho svg:hover {
+    cursor: pointer;
+}
+
 .cabecalho-profile {
     width: 34px;
     margin-right: 30px;
+}
+
+.cabecalho-profile:hover {
+    cursor: pointer;
 }
 
 main {

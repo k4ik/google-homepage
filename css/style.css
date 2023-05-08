@@ -77,6 +77,10 @@ main {
     margin-bottom: 40px;
 }
 
+.barra-pesquisa svg:hover {
+    cursor: pointer;
+}
+
 .barra-pesquisa input {
     border: none;
     outline: none;

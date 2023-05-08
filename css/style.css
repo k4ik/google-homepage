@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.cabecalho div {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho ul {
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho li {
+    margin-right: 10px;
+}
+
+.cabecalho-links {
+    text-decoration: none;
+}
+
+.cabecalho svg {
+    width: 34px;
+    margin-right: 10px;
+}
+
+.cabecalho-profile {
+    width: 34px;
+    margin-right: 30px;
+}

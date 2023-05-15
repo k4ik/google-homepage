@@ -8,47 +8,47 @@ body {
     background-color: #202124;
 }
 
-.cabecalho {
+.header {
     display: flex;
     justify-content: flex-end;
     padding: 20px 0;
 }
 
-.cabecalho div {
+.header div {
     display: flex;
     align-items: center;
 }
 
-.cabecalho ul {
+.header ul {
     list-style: none;
     display: flex;
 }
 
-.cabecalho li {
+.header li {
     margin-right: 10px;
 }
 
-.cabecalho-links {
+.header-links {
     text-decoration: none;
     color: white;
 }
 
-.cabecalho svg {
+.header svg {
     width: 34px;
     margin-right: 10px;
     fill: #fff;
 }
 
-.cabecalho svg:hover {
+.header svg:hover {
     cursor: pointer;
 }
 
-.cabecalho-profile {
+.header-profile {
     width: 34px;
     margin-right: 30px;
 }
 
-.cabecalho-profile:hover {
+.header-profile:hover {
     cursor: pointer;
 }
 
@@ -67,7 +67,7 @@ main {
     font-weight: lighter;
 }
 
-.barra-pesquisa {
+.search-bar {
     display: flex;
     align-items: center;
     outline: 1px solid gray;
@@ -77,11 +77,11 @@ main {
     margin-bottom: 40px;
 }
 
-.barra-pesquisa svg:hover {
+.search-bar svg:hover {
     cursor: pointer;
 }
 
-.barra-pesquisa input {
+.search-bar input {
     border: none;
     outline: none;
     background-color: #202124;

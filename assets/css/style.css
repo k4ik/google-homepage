@@ -67,3 +67,25 @@ main h1 {
 .btn a {
     color: #fff;
 }
+
+footer {
+    padding: 15px 0;
+    color: #9aa0a6;
+    font-size: 14px;
+    background-color: rgb(17, 17, 17);
+}
+
+footer p, footer nav {
+    padding: 20px 40px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}

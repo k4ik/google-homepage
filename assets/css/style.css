@@ -89,3 +89,53 @@ footer ul {
     list-style: none;
     gap: 20px;
 }
+
+@media screen and (max-width: 768px){
+    main h1 {
+        font-size: 80px;
+    }
+
+    .container-search input {
+        width: 250px;
+    }
+
+    footer nav {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 425px){
+    main h1 {
+        font-size: 60px;
+    }
+
+    .container-search input {
+        width: 150px;
+    }
+
+    .btn ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .btn li {
+        margin: 20px 0;
+        background-color: #303134;
+        padding: 10px 10px;
+    }
+    
+    .btn a {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    footer ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        font-size: 12px;
+    }
+}
